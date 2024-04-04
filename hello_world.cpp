@@ -1,8 +1,11 @@
 #include <iostream>
-using namespace std;
-
+#include <string>
+using namespace std; 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+  string name;
+  cout << "Enter your name: ";
+  cin >> name;
+  cout << "Hello world from " << name << endl;
+  return 0;
 }
